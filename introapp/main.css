@@ -1,0 +1,184 @@
+p{
+	color:#A78442;
+	font-size:20px;
+	font-family:monospace;
+}
+
+.list{
+	color:#A78442;
+	font-size:19px;
+	font-family:monospace;
+}
+
+.p1{
+	color:#A78442;
+	font-size:21px;
+	width:70%;
+}
+
+.oof{
+	width:65%;
+	border:10px double #A78442;
+	padding:25px;
+}
+
+.yikes{
+	font-size:20px;
+	color:#A78442;
+}
+
+.worm{
+	width:150px;
+	height:150px;
+}
+
+.AHAHAHA{
+	width:225px;
+	height:125px;
+}
+
+.rightpics{
+	float:right;
+	padding:10px;
+	margin-right:50px;
+	border:10px double #A78442;
+}
+
+#button1{
+	height:20px;
+	width:40px;
+	color:#A78442;
+	background-color:#BDAFA7;
+	border-radius:15px;
+}
+
+#banner{
+	height:50px;
+	width:98%;
+	border:10px double #A78442;
+	background-color:#FFD789;
+	font-family:monospace;
+	font-variant:small-caps;
+	text-align:center;
+	font-size:35px;
+	color:#A78442;
+	margin-bottom:10px;
+}
+
+#footer{
+	height:50px;
+	width:98%;
+	border:10px double #A78442;
+	background-color:#FFD789;
+	font-family:monospace;
+	font-variant:small-caps;
+	text-align:center;
+	font-size:35px;
+	color:#A78442;
+}
+
+#abyss{
+	color:#A56041;
+	font-family:monospace;
+	font-variant:small-caps;
+}
+
+h1{
+	font-family:monospace;
+	font-variant:small-caps;
+	font-size:30px;
+	color:#745C2E;
+}
+
+h2{
+	font-family:monospace;
+	font-variant:small-caps;
+	font-size:30px;
+	color:#745C2E;
+}
+
+form{
+	font-family:monospace;
+	color:#A78442;
+}
+
+html{
+	background-color:#FFE8BC;
+}
+
+#one{
+	height:150px;
+	width:150px;
+	background-color:#FFEBBC;
+	display:inline-block;
+	position:absolute;
+	z-index: 1;
+}
+
+#two{
+	height:150px;
+	width:150px;
+	background-color:#EECC88;
+	display:inline-block;
+	position:relative;
+	z-index:2;
+	top:750px;
+	left:500px;
+}
+
+#three{
+	height:150px;
+	width:150px;
+	background-color:#EEAA88;
+	display:inline-block;
+	position:fixed;
+	left:25%;
+}
+
+#background-h{
+	height:2048px;
+}
+
+.navitem{
+	list-style-type:none;
+	display:inline;
+	margin:5em;
+	padding:10px;
+	font-family:monospace;
+}
+
+#navmenu{
+	text-align:center;
+	background-color:#FFD789;
+	color:white;
+	width:96%;
+}
+
+#die{
+	margin-top:15px;
+}
+
+a:link{
+	color:#837a7b;
+}
+
+a:visited{
+	color:#A78442;
+}
+
+a:hover{
+	color:white;
+}
+
+.rightside{
+	float:right;
+	width:30%;
+}
+
+.leftside{
+	width:70%;
+}
+
+.clearfloat{
+	clear:both;
+}

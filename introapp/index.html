@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css" />
+		<style>
+		
+		</style>
+		<title> oh worm</title>
+
+			<script>
+				function banner(){
+					var text=confirm("wise decision. worms investigate everything.");
+					return text;
+				} //end of function banner()
+
+				function answer(){
+					var radio=document.getElementsByName("trivia");
+					var selection=false;
+					var message="";
+					for( var i = 0; i < radio.length; i++) {
+						if(radio[i].value == "yes" && radio[i].checked == true) {
+							selection = true;
+						} //end if statement
+					} //end for loop
+					if(selection == true) {
+						message = message + "<b><p style='color:#95A542'>yah.</p></b>";
+					} else {
+						message = message + "<b><p style='color:#A56041'>nah.</p></b>";
+					}
+					document.getElementById("response").innerHTML = message;
+				} //end of function answer()
+			</script>
+	</head>
+	<body id="body1">
+
+	<a onclick="return banner()" href="https://www.buzzfeednews.com/article/laurenstrapagiel/worm-on-a-string">
+		<header id="banner">
+			--- o h w o r m ---
+		</header>
+	</a>
+
+		<nav>
+			<ul id="navmenu">
+				<li class="navitem"><a href="index.html">home</a></li>
+				<li class="navitem"> <a href="greenw.html">green worms</a></li>
+				<li class="navitem"><a href="bluew.html">purple worms</a></li>
+			</ul>
+		</nav>
+
+<div class="rightside">
+		<img class="rightpics" width="400" height="600" src="https://i.imgur.com/ZAbqEOA.jpg" />
+		<img class="rightpics" width="400" length="350" src="https://i.pinimg.com/originals/e0/7b/64/e07b645442a0e7804db8a558c97b4ca5.jpg" />
+		<img class="rightpics" width="400" height="600" src="https://i.pinimg.com/originals/60/02/f6/6002f6247d736472e84be73eb3174f2a.jpg" />
+</div>
+
+<div class="leftside">
+		<h1>worms on a string</h1>
+		<p class="p1"><i>yo</i> so thus is for my computer programming class so it's probably not going to look the best but thats okay i guess. we were allowed to pick our own theme so i went with a classic: <span class="yikes"><strong>w o r m.</strong></span> proud owner of 84.</p>
+	<div class="oof">
+		<ul>
+			<li class="list">wait</li>
+			<li class="list">whats this, , ? ,</li>
+			<li class="list">a list i was required to make for the curriculum, , ? </li>
+		</ul>
+	</div>
+<iframe id="die" width="640" height="360" src="https://www.youtube.com/embed/YOojFdYqwvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		<h2>bruh</h2>
+	<div class="oof">
+		<p>what is best worm?</p>
+		<form>
+	<div id="response"></div>
+			<input type="radio" name="trivia" value="no"/> silky worm <br>
+			<input type="radio" name="trivia" value="yes" /> worm on a string <br>
+			<input type="radio" name="trivia" value="no" /> catepillar??? <br>
+			<input type="radio" name="trivia" value="no" /> earth worm <br>
+			<input onclick="answer()" id="button1" type="button" value="Click Here" />
+		</form>
+	</div>
+
+</div>
+
+
+<div class="clearfloat"></div>
+
+	
+
+
+		<center> <h2> <strong> w o r m </strong> </h2> </center>
+		<center> <a id="abyss" href="https://www.aliexpress.com/item/32882251338.html?spm=a2g0o.productlist.0.0.54d76f61qzV4jk&algo_pvid=3f2248d4-2d08-47b6-a764-f4d2e38b4fa3&algo_expid=3f2248d4-2d08-47b6-a764-f4d2e38b4fa3-8&btsid=43fe9047-73b6-40e5-bfc1-0204e6c07a88&ws_ab_test=searchweb0_0,searchweb201602_6,searchweb201603_55">T H E A B Y S S</a></center>
+		<footer id="footer">--- m u l t i p l e  w o r m s ---</footer>
+	</body>
+		<audio autoplay loop>
+			<source src="Owl City - Fireflies.mp3" type="audio/mp3">
+		</audio>
+
+
+</html>
